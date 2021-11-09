@@ -11,7 +11,7 @@ I created this website out of boredom.  This is a full working website, currentl
 
 Front page
 
-![front_page](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/front_page.png)
+![front_page](/Images/front_page.png)
 
 
 
