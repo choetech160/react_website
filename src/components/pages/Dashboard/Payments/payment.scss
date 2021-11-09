@@ -1,0 +1,119 @@
+$number: 1.8;
+
+.pricing__section-small {
+    padding: 100px/($number) 0/($number) 160px/($number);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fafafa;
+}
+
+.pricing__container-card-small {
+    background: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    box-shadow: 0 6px/($number) 20px/($number) rgba(56, 125, 255, 0.2);
+    width: 280px/($number);
+    height: 500px/($number/1.15);
+    text-decoration: none;
+    border-radius: 4px/($number);
+}
+
+.pricing__container-card-small:nth-child(2) {
+    transform: scale(1.05);
+    background: #242424;
+    margin: 0 24px/($number);
+}
+
+.pricing__container-card-small:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    color: #1c2237;
+}
+
+.pricing__container-small {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pricing__wrapper-small {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.pricing__heading-small {
+    color: #1c2237;
+    margin-bottom: 24px/($number);
+}
+
+.pricing__container-cardInfo-small {
+    display: flex;
+    flex-direction: column;
+    height: 500px/($number);
+    padding: 24px/($number);
+    align-items: center;
+    color: #fff;
+}
+
+.pricing__container-cardInfo-small h3 {
+    margin-bottom: 5px/($number);
+    font-size: 24px/($number);
+}
+
+.pricing__container-cardInfo-small h4 {
+    font-size: 40px/($number);
+}
+
+.pricing__container-cardInfo-small p {
+    font-size: 14px/($number);
+    margin-bottom: 24px/($number);
+}
+
+.pricing__container-features-small {
+    margin: 16px/($number) 0 32px/($number);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__container-features-small li {
+    margin-bottom: 10px/($number);
+    font-size: 24px/($number);
+}
+
+.icon-small {
+    margin: 24px/($number) 0;
+}
+
+@media screen and (max-width: 960px) {
+    .pricing__container-small {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pricing__container-card-small {
+        width: 90%;
+    }
+
+    .pricing__wrapper-small {
+        margin: 0 30px/($number);
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .pricing__container-card-small:th-child(2) {
+        transform: scale(1);
+        background: #242424;
+        margin: 24px/($number);
+    }
+
+    .pricing__container-card-small:hover {
+        transform: none;
+    }
+}

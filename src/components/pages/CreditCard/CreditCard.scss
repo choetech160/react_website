@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap');
+$number: 1.5; // Factor to multiply/divide default form size
+
+// body {
+//     background: #ddeefc;
+//     font-family: 'Source Sans Pro', sans-serif;
+//     font-size: 16px;
+// }
+// * {
+//     box-sizing: border-box;
+//     &:focus {
+//         outline: none;
+//     }
+// }
+.wrapper {
+    min-height: 100vh/($number);
+    display: flex;
+    padding: 50px/($number) 15px/($number);
+    @media screen and (max-width: 700px/($number)), (max-height: 500px/($number)) {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+.card-form {
+    max-width: 570px/($number);
+    margin: auto;
+    width: 100%;
+
+    @media screen and (max-width: 576px/($number)) {
+        margin: 0 auto;
+    }
+
+    &__inner {
+        background: #fff;
+        // box-shadow: 3px 13px 30px 0px rgba(21, 34, 67, 0.2);
+        box-shadow: 0 30px/($number) 60px/($number) 0 rgba(90, 116, 148, 0.4);
+        border-radius: 10px/($number);
+        padding: 35px/($number);
+        padding-top: 180px/($number);
+
+        @media screen and (max-width: 480px/($number)) {
+            padding: 25px/($number);
+            padding-top: 165px/($number);
+        }
+        @media screen and (max-width: 360px/($number)) {
+            padding: 15px/($number);
+            padding-top: 165px/($number);
+        }
+    }
+
+    &__row {
+        display: flex;
+        align-items: flex-start;
+        @media screen and (max-width: 480px/($number)) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__col {
+        flex: auto;
+        margin-right: 35px/($number);
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        @media screen and (max-width: 480px/($number)) {
+            margin-right: 0;
+            flex: unset;
+            width: 100%;
+            margin-bottom: 20px/($number);
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        &.-cvv {
+            max-width: 150px;
+            @media screen and (max-width: 480px/($number)) {
+                max-width: initial;
+            }
+        }
+    }
+
+    &__group {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .card-input__input {
+            flex: 1;
+            margin-right: 15px/($number);
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__button {
+        width: 100%;
+        height: 55px/($number);
+        background: #2364d2;
+        border: none;
+        border-radius: 5px/($number);
+        font-size: 22px/($number);
+        font-weight: 500/($number);
+        font-family: 'Source Sans Pro', sans-serif;
+        box-shadow: 3px/($number) 10px/($number) 20px/($number) 0px rgba(35, 100, 210, 0.3);
+        color: #fff;
+        margin-top: 20px/($number);
+        cursor: pointer;
+
+        @media screen and (max-width: 480px/($number)) {
+            margin-top: 10px/($number);
+        }
+    }
+}
+
+.card-list {
+    margin-bottom: -130px/($number);
+
+    @media screen and (max-width: 480px/($number)) {
+        margin-bottom: -120px/($number);
+    }
+}
+
+.card-input {
+    margin-bottom: 20px/($number);
+    &__label {
+        font-size: 14px/($number);
+        margin-bottom: 5px/($number);
+        font-weight: 500/($number);
+        color: #1a3b5d;
+        width: 100%;
+        display: block;
+        user-select: none;
+    }
+    &__input {
+        width: 100%;
+        height: 50px/($number);
+        border-radius: 5px/($number);
+        box-shadow: none;
+        border: 1px/($number) solid #ced6e0;
+        transition: all 0.3s ease-in-out;
+        font-size: 18px/($number);
+        padding: 5px/($number) 15px/($number);
+        background: none;
+        color: #1a3b5d;
+        font-family: 'Source Sans Pro', sans-serif;
+
+        &:hover,
+        &:focus {
+            border-color: #3d9cff;
+        }
+
+        &:focus {
+            box-shadow: 0px 10px/($number) 20px/($number) -13px/($number) rgba(32, 56, 117, 0.35);
+        }
+        &.-select {
+            -webkit-appearance: none;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC');
+            background-size: 12px/($number);
+            background-position: 90% center;
+            background-repeat: no-repeat;
+            padding-right: 30px/($number);
+        }
+    }
+}
+
+.github-btn {
+    position: absolute;
+    right: 40px/($number);
+    bottom: 50px/($number);
+    text-decoration: none;
+    padding: 15px/($number) 25px/($number);
+    border-radius: 4px/($number);
+    box-shadow: 0px 4px/($number) 30px/($number) -6px/($number) rgba(36, 52, 70, 0.65);
+    background: #24292e;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px/($number);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    @media screen and (min-width: 500px) {
+        &:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 17px/($number) 20px/($number) -6px/($number) rgba(36, 52, 70, 0.36);
+        }
+    }
+
+    @media screen and (max-width: 700px/($number)) {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        margin-top: 20px/($number);
+
+        &:active {
+            transform: scale(1.1);
+            box-shadow: 0px 17px/($number) 20px/($number) -6px/($number) rgba(36, 52, 70, 0.36);
+        }
+    }
+}

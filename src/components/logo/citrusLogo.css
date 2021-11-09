@@ -1,0 +1,45 @@
+.logo-wrapper {
+    position:relative;
+    margin:2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 8.75vh;
+    width: 1.25vw;
+
+}
+.arc {
+    position:absolute;
+    width:25px;
+    height:25px;
+    border-radius:100%;
+    border:2px solid;
+}
+.arc_start {
+    border-color:transparent white white white;
+    transform: rotate(50deg);
+}
+.arc_end {
+    border-color:white white white transparent;
+    transform: rotate(90deg);
+}
+ .logo-leaf{
+    z-index: 98;
+    background-color: white;
+    height:7.5px;
+    width: 15px;
+    position:absolute;
+    display: flex;
+    border-radius:10px 1.25px;
+    transform:translate(5px, -15px) rotate(-10deg)
+ }
+
+ .logo-innerLeaf{
+    position: relative;
+    margin: auto auto;
+    background-color: #183153;
+    height:3.5px;
+    width: 11px;
+    border-radius:10px .25px;
+
+ }

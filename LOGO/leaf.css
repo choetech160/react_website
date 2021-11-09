@@ -1,0 +1,51 @@
+.wrapper {
+    position:relative;
+    margin:2px;
+    margin-top:150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.arc {
+    position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:8px solid;
+}
+.arc_start {
+    border-color:transparent #183153 #183153 #183153;
+    transform: rotate(50deg);
+}
+.arc_end {
+    border-color:#183153 #183153 #183153 transparent;
+    transform: rotate(90deg);
+}
+ .leaf{
+    z-index: 98;
+    background-color: #183153;
+    height:30px;
+    width: 60px;
+    position:absolute;
+    display: flex;
+<<<<<<< HEAD
+    border-radius:40px 5px;
+    transform:translate(20px, -60px) rotate(-10deg)
+=======
+    border-radius:10px 1.25px;
+    transform:translate(15px, -5px) rotate(-10deg)
+>>>>>>> f209618583dbf76b3b42c8c5653a88fb8f3f9cc6
+ }
+
+ .innerLeaf{
+    position: relative;
+    margin: auto auto;
+    background-color: #183153;
+    height:14px;
+    width: 44px;
+    border-radius:40px 1px;
+
+ }

@@ -1,0 +1,39 @@
+export const data = {
+    EN:{
+        title: 'Terms of Services',
+        firstLine: `"We", "Our" or "CP" here refers to Citrus-Privacy's owners and employees.`,
+        AccessText: `By accessing and using citrus-privacy, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using  these particular services, you shall be subject to any posted guidelines or rules applicable to such services. Any participation in this service will constitute acceptance of this agreement. If you do not agree to  abide by the above, please do not use this service.`,
+        PrivacyPolicyTitle: 'Privacy Policy',
+        Para1: `CP's commitment to you is to protect your online identity thus your data will not be shared with third party and can only be accessed by internal employees with special access.  Your personal data is treated with utmost respect as if it was ours.  Your data might be shared only to comply with law enforcement.  Your data includes email address, aliases and email activity (bandwidth statistics, email themselves are not kept)`,
+        Para2: `Payment information is unknown to citrus-privacy as we use Stripe to process payment.  Such information includes credit card information, name and street address collected during payment.`,
+        Para3: `Subscriptions are renewed yearly, automatically unless you opt out`,
+        CommitmentTitle: `If you choose to use citrus-privacy, you must commit to the following: `,
+        CommitmentRows: [
+            {
+                content: `You may not sell, resell or offer for any commercial purposes any part of the citrus-privacy service;`
+            },
+            {
+                content: `You may not use citrus-privacy services to break the law.  We will cooperate full with requests from law enforcement agencies as part of any legitimate investigation of a crime;`
+            },
+            {
+                content: `You may not engage in behaviour that degrades or disrupt our services for other users;`
+            },
+            {
+                content: `Violating these terms of service may result in your account being terminated without notice;`
+            },
+            {
+                content: `You shall indemnify, defend, and hold harmless citrus-privacy, and anyone related  to citrus-privacy (including its parent corporation, affiliates, their  respective officers, employees and agents, and each of citrus-privacy's  partners), from any and all claims, demands, damages, costs, and  liabilities including reasonable attorneys' fees, made my any third  party due to or arising out of that user's acts or omissions, including  claims arising out of that user's use of the citrus-privacy service; his or her  submission, posting or transmission of Content, or his or her violation  of the Terms.`
+            }
+        ],
+        Para4: `This site and its components are offered for informational purposes  only; this site shall not be responsible or liable for the accuracy,  usefulness or availability of any information transmitted or made  available via the site, and shall not be responsible or liable for any  error or omissions in that information.`,
+        Para5: `The company reserves the right to change these conditions from time to  time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes  to our privacy policy, we will announce that these changes have been  made on our home page and on other key pages on our site. If there are  any changes in how we use our site customers' Personally Identifiable  Information, notification by email or postal mail will be made to those  affected by the change. Any changes to our privacy policy will be posted on our site 30 days prior to these changes taking place. You are  therefore advised to re-read this statement on a regular basis.`,
+        WarrantyTitle: `Warranty information`,
+        WarrantyText: `EACH USER'S USE OF THE CITRUS-PRIVACY SITES IS AT HIS OR HER SOLE RISK. THE CITRUS-PRIVACY  SITES ARE PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS AND CITRUS-PRIVACY  ASSUMES NO RESPONSIBILITY FOR THE TIMELINESS, DELETION, MIS-DELIVERY OR  FAILURE TO STORE ANY USER COMMUNICATIONS OR PERSONALIZATION SETTINGS.  EACH USER WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO HIS OR HER  COMPUTER SYSTEM OR LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY  SUCH MATERIAL. CITRUS-PRIVACY EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND,  WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE IMPLIED  WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND  NON-INFRINGEMENT. SPECIFICALLY, CITRUS-PRIVACY MAKES NO WARRANTY THAT (i) THE  CITRUS-PRIVACY SITES OR ANY SERVICE THEREON WILL MEET YOUR REQUIREMENTS, (ii)  ANY USER ACCESS WILL BE UNINTERRUPTED, TIMELY, SECURE OR ERROR-FREE,  (iii) THE QUALITY OF ANY CONTENT, PRODUCTS, SERVICES, INFORMATION OR  OTHER MATERIAL OBTAINED BY ANY USER WILL MEET HIS OR HER EXPECTATIONS,  AND (iv) ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED. EXCLUDING ONLY  DAMAGES ARISING OUT OF CITRUS-PRIVACY'S GROSS NEGLIGENCE OR WILLFUL MISCONDUCT,  CITRUS-PRIVACY SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,  SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED  TO DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE  LOSSES (EVEN IF CITRUS-PRIVACY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH  DAMAGES), RESULTING FROM ANY USER'S USE OR INABILITY TO USE ANY CITRUS-PRIVACY  SITES OR SERVICES THEREON; THE COST OF PROCUREMENT OF SUBSTITUTE  SERVICES; UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR  DATA; STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE CITRUS-PRIVACY SITES; OR  ANY OTHER MATTER RELATING TO THE CITRUS-PRIVACY SITES. IN NO EVENT SHALL  CITRUS-PRIVACY'S TOTAL CUMULATIVE LIABILITY TO ANY USER OR OTHER PARTY UNDER  THESE TERMS OF SERVICE OR OTHERWISE EXCEED $1,000.00. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR THE LIMITATION OR  EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES.  ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. NOTHING HEREIN SHALL BE DEEMED TO CREATE AN AGENCY, PARTNERSHIP, JOINT VENTURE, EMPLOYEE-EMPLOYER OR FRANCHISOR-FRANCHISEE RELATIONSHIP OF ANY KIND  BETWEEN CITRUS-PRIVACY AND ANY USER OR OTHER PERSON OR ENTITY NOR DO THESE TERMS OF SERVICE EXTEND RIGHTS TO ANY THIRD PARTY. AS NOTED ABOVE, CITRUS-PRIVACY  DOES NOT AND CANNOT CONTROL THE ACTIONS OF CITRUS-PRIVACY SITE USERS, VISITORS  OR LINKED THIRD PARTIES. WE RESERVE THE RIGHT TO REPORT ANY MALFEASANCE  THAT COMES TO OUR ATTENTION TO THE APPROPRIATE AUTHORITIES. WE DO NOT  GUARANTEE CONTINUOUS UNINTERRUPTED OR SECURE ACCESS TO CITRUS-PRIVACY SITES.  OPERATION OF CITRUS-PRIVACY SITES MAY BE SUBJECT TO INTERFERENCE FROM NUMEROUS  FACTORS OUTSIDE OUR CONTROL. FURTHER, SCHEDULED AND PREVENTIVE  MAINTENANCE AS WELL AS REQUIRED AND EMERGENCY MAINTENANCE WORK MAY  TEMPORARILY INTERRUPT SERVICES OR ACCESS TO THE WEBSITE. THE DISCLAIMERS OF WARRANTY AND LIMITATIONS OF LIABILITY APPLY, WITHOUT LIMITATION, TO  ANY DAMAGES OR INJURY CAUSED BY THE FAILURE OF PERFORMANCE, ERROR,  OMISSION, INTERRUPTION, DELETION, DEFECT, DELAY IN OPERATION OR  TRANSMISSION, COMPUTER VIRUS, COMMUNICATION LINE FAILURE, THEFT OR  DESTRUCTION OR UNAUTHORIZED ACCESS TO, ALTERATION OF OR USE OF ANY  ASSET, WHETHER ARISING OUT OF BREACH OF CONTRACT, TORTIOUS BEHAVIOUR,  NEGLIGENCE OR ANY OTHER COURSE OF ACTION BY CITRUS-PRIVACY.`
+        
+    },
+
+
+    FR:{
+
+    }
+}
