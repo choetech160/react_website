@@ -17,31 +17,31 @@ Front page
 
 Full page
 
-![full](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/full.png)
+![full](/Images/full.png)
 
 
 
 Language option
 
-![languages](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/languages.png)
+![languages](/Images/languages.png)
 
 
 
 Login page
 
-![login](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/login.png)
+![login](/Images/login.png)
 
 
 
 Mobile friendly
 
-![mobile_friendly](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/mobile_friendly.png)
+![mobile_friendly](/Images/mobile_friendly.png)
 
 
 
 mobile menu 
 
-![mobile_friendly_menu](/home/home-system-76/Projects/PRIVACY/practice/Public_version/Images/mobile_friendly_menu.png)
+![mobile_friendly_menu](/Images/mobile_friendly_menu.png)
 
 ### Start locally
 
